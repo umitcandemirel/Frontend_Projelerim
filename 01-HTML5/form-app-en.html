@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up Now</title>
+</head>
+<body>
+    <h1>Please Fill Out the Form Completely.</h1>
+    <hr>
+    
+    <h4>Account Information</h4>
+    <form>
+        <p><label>Username: <input type="text" name="username" placeholder="Enter username" required></label></p>
+        <p><label>Email: <input type="email" name="email" placeholder="Enter email" required></label></p>
+        <p><label>Password: <input type="password" name="password" placeholder="Enter password" required></label></p>
+    
+    <h4>Personal Information</h4>
+        <p><label>First Name: <input type="text" name="first_name"></label></p>
+        <p><label>Last Name: <input type="text" name="last_name"></label></p>
+        
+        <p>
+            <label for="city">City:</label>
+            <select name="city" id="city">
+                <option value="">Choose</option>
+                <option value="istanbul">Istanbul</option>
+                <option value="ankara">Ankara</option>
+                <option value="izmir">Izmir</option>
+                <option value="bursa">Bursa</option>
+            </select>
+        </p>
+
+        <p>
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+        </p>
+
+        <p>
+            <label>Hobbies:</label>
+            <input type="checkbox" name="hobbies" value="cinema"> Cinema
+            <input type="checkbox" name="hobbies" value="traveling"> Traveling
+            <input type="checkbox" name="hobbies" value="sports"> Sports
+            <input type="checkbox" name="hobbies" value="reading"> Reading
+        </p>
+
+        <input type="submit" value="Save">
+    </form>
+</body>
+</html>
