@@ -9,10 +9,10 @@
 
 ### 📝 Form & Kayıt Yapıları
 * **[Kayıt Formu (TR)](./01-HTML5/form-app-tr.html):** Modern input tipleri ve bölümlendirilmiş yapı ile kullanıcı kayıt senaryosu.
-* **[Genel Form Elemanları](./01-HTML5/form.html):** Temel ve gelişmiş HTML form elemanları üzerine çalışmalar.
+* **[Genel Form Elemanları](./01-HTML5/forms.html):** Temel ve gelişmiş HTML form elemanları üzerine çalışmalar.
 
 ### 📊 Veri ve İçerik Yönetimi
-* **[Kullanıcı Veri Tablosu](./01-HTML5/table-app.html):** Veri listeleme ve tablo yapısı organizasyonu.
+* **[Kullanıcı Veri Tablosu](./01-HTML5/tables.html):** Veri listeleme ve tablo yapısı organizasyonu.
 * **[Listeler (List-App)](./01-HTML5/list-application-tr.html):** İç içe geçmiş sıralı ve sırasız liste yapıları.
 
 ### 🖼️ Medya Uygulamaları
@@ -24,10 +24,10 @@
 
 ### 📝 Form & Registration Structures
 * **[Registration Form (EN)](./01-HTML5/form-app-en.html):** A comprehensive registration form built with global terminology.
-* **[Form Elements](./01-HTML5/form.html):** Deep dive into HTML form tags and validation.
+* **[Form Elements](./01-HTML5/forms.html):** Deep dive into HTML form tags and validation.
 
 ### 📊 Data & Content Management
-* **[User Data Table](./01-HTML5/table-app.html):** Data organization using semantic table structures.
+* **[User Data Table](./01-HTML5/tables.html):** Data organization using semantic table structures.
 * **[List-App](./01-HTML5/list-application-en.html):** Nested lists and content hierarchy management.
 
 ### 🖼️ Media Applications
