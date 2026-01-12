@@ -1,42 +1,38 @@
 # 🚀 Frontend Development Journey | Ümitcan Demirel
 
-[TR] Bu depo, modern web geliştirme standartlarını kavrama ve uygulama süreçlerimi içeren bir portfolyo niteliğindedir. Her bir dosya, HTML5'in farklı bir yetkinliğini temsil eder.
+[TR] Bu depo, HTML5'in temel ve ileri seviye yapılarını (formlar, kompleks tablolar, medya yönetimi) içeren ve modern web standartlarına uygun olarak geliştirilmiş bir portfolyo çalışmasıdır.
 
-[EN] This repository is a portfolio of my journey in mastering and implementing modern web development standards. Each file represents a different competency in HTML5.
+[EN] This repository is a portfolio work demonstrating basic and advanced HTML5 structures (forms, complex tables, media management), developed in accordance with modern web standards.
 
 ---
 
 ## 🇹🇷 Türkçe - HTML5 Uygulamaları (01-HTML5)
 
-### 📝 Form ve Kullanıcı Etkileşimi
-* **[Genel Form Elemanları](./01-HTML5/forms.html):** Input tipleri, validasyonlar ve kullanıcı veri giriş yapıları.
-* **[Kayıt Formu (TR)](./01-HTML5/form-app-tr.html):** Detaylı ve bölümlendirilmiş kullanıcı kayıt senaryosu.
-* **[Uygulama-2](./01-HTML5/application-2-tr.html):** Sektörel içerik yönetim uygulaması örneği.
+### 📝 Formlar ve Etkileşim
+* **[Gelişmiş Kayıt Formu (TR)](./01-HTML5/forms-tr.html):** HTML5 input tipleri, validasyonlar ve kullanıcı veri giriş yapıları.
 
-### 📊 Veri ve İçerik Organizasyonu
-* **[Listeler (TR)](./01-HTML5/list-application-tr.html):** İç içe geçmiş sıralı ve sırasız listeler ile içerik hiyerarşisi.
-* **[Tablo Uygulaması](./01-HTML5/tables.html):** Semantic tablo yapıları (`thead`, `tbody`) ile veri yönetimi.
+### 📊 Veri ve Tablo Yapıları
+* **[Kurs Bilgi Tablosu (TR)](./01-HTML5/tables-tr.html):** `rowspan` ve `colspan` kullanılarak oluşturulmuş kompleks tablo yapısı.
+* **[Karakter Rehberi - Taş Devri (TR)](./01-HTML5/character-database-tr.html):** Resim, tablo ve dış bağlantıların (link) bir arada kullanıldığı interaktif uygulama.
 
-### 🖼️ Medya ve Hakkımda
-* **[Görsel Uygulamaları](./01-HTML5/images.html):** Web uyumlu resim kullanımı ve attribute yönetimi.
-* **[Hakkımda](./01-HTML5/hakkimda.html):** Kişisel profil ve HTML yapısal düzenleme çalışması.
+### 🖼️ Diğer Çalışmalar
+* **[Görsel Uygulamaları](./01-HTML5/images.html):** Web uyumlu resim kullanımı ve nitelik yönetimi.
+* **[Hakkımda](./01-HTML5/hakkimda.html):** Kişisel profil ve yapısal düzenleme çalışması.
 
 ---
 
 ## 🇺🇸 English - HTML5 Applications (01-HTML5)
 
-### 📝 Forms & User Interaction
-* **[Form Elements](./01-HTML5/forms.html):** Practice on HTML5 input types and data validation.
-* **[Registration Form (EN)](./01-HTML5/form-app-en.html):** Comprehensive registration form using global terminology.
-* **[Application-2 (EN)](./01-HTML5/application-2-en.html):** Industry-specific content management application.
+### 📝 Forms & Interaction
+* **[Advanced Registration Form (EN)](./01-HTML5/forms-en.html):** Practice on HTML5 input types, validations, and data entry.
 
-### 📊 Data & Content Organization
-* **[List Applications (EN)](./01-HTML5/list-application-en.html):** Nested lists and content organization hierarchy.
-* **[Tables Application](./01-HTML5/tables.html):** Managing data with semantic table structures.
+### 📊 Data & Table Structures
+* **[Course Information Table (EN)](./01-HTML5/tables-en.html):** Complex table structure utilizing `rowspan` and `colspan`.
+* **[Character Database - Flintstones (EN)](./01-HTML5/character-database-eng.html):** Interactive application combining images, tables, and external links.
 
-### 🖼️ Media & About
-* **[Images-App](./01-HTML5/images.html):** Best practices for responsive images and accessibility.
-* **[About Me](./01-HTML5/about-me.html):** Personal profile page and structural layout exercise.
+### 🖼️ Other Practices
+* **[Images App](./01-HTML5/images.html):** Best practices for responsive images and accessibility.
+* **[About Me](./01-HTML5/about-me.html):** Personal profile page and layout exercise.
 
 ---
 
@@ -50,6 +46,6 @@
 
 ---
 ### 🐍 Arka Plan / Background
-Bu yolculuğa başlamadan önce Python üzerinde veri yapıları (**Tuple, Set, Dictionaries, Lambda**) ve kopyalama mantığı üzerine temelimi attım. Şimdi bu mantığı web teknolojileriyle birleştiriyorum.
+Frontend dünyasına girmeden önce Python üzerinde veri yapıları (**Tuple, Set, Dictionaries, Lambda**) ve kopyalama mantığı üzerine sağlam bir temel attım. Şimdi bu mantıksal derinliği görsel web teknolojileriyle birleştiriyorum.
 
 *Keep coding! / Kodlamaya devam!* ⚡
