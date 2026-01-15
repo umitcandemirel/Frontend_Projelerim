@@ -10,7 +10,7 @@ Bu depo, HTML5'in temel ve ileri seviye yapılarını içeren, modern web standa
 
 ### 🚣‍♂️ Öne Çıkan Proje: World Rowing Showcase
 HTML5 modülünün final projesi olarak tüm teknik yetkinliklerin (Semantik yapı, Iframe, Kompleks Tablolar) harmanlandığı çalışmadır.
-* **Linkler:** [🇬🇧 English Page](./rowing-showcase.html) | [🇹🇷 Türkçe Sayfa](./rowing-showcase-tr.html)
+* **Linkler:** [🇬🇧 English Page](./rowing-showcase-en.html) | [🇹🇷 Türkçe Sayfa](./rowing-showcase-tr.html)
 
 ---
 
@@ -19,7 +19,7 @@ This repository is a portfolio demonstrating basic and advanced HTML5 structures
 
 ### 🚣‍♂️ Featured Project: World Rowing Showcase
 A capstone project of the HTML5 module, integrating semantic architecture, media management, and complex data mapping.
-* **Links:** [🇬🇧 English Page](./rowing-showcase.html) | [🇹🇷 Türkçe Sayfa](./rowing-showcase-tr.html)
+* **Links:** [🇬🇧 English Page](./rowing-showcase-en.html) | [🇹🇷 Türkçe Sayfa](./rowing-showcase-tr.html)
 
 ---
 
