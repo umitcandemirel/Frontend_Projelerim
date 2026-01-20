@@ -1,0 +1,24 @@
+/* *{
+    border: 1px solid blue;
+}
+p{
+    border: 1px solid red;
+}
+div p{
+    border: 1px solid green;
+}
+.container div.box{
+    border: 1px solid orange;
+}
+div,p{
+    border: 1px solid purple; 
+}*/
+/* div>p{
+    border: 1px solid brown;
+} */
+p+div{
+    border: 1px solid pink;
+}
+div ~ p{
+    border: 1px solid cyan;
+}
