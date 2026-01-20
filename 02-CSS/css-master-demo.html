@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Master Demo - The Final Boss</title>
+    <style>
+        /* 1. Grouping & Reset (Ders 9) */
+        h1, h2, p, button {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-bottom: 15px;
+        }
+
+        /* 2. Box Model & Layout (Ders 10) */
+        .card {
+            width: 350px;
+            padding: 20px;
+            border: 2px solid #333;
+            margin: 50px auto;
+            border-radius: 12px;
+            box-shadow: 10px 10px 0px #eee; /* Kutu gölgesi */
+        }
+
+        /* 3. Attribute Selectors (Ders 8) */
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            box-sizing: border-box; /* Padding'in kutuyu büyütmesini engeller */
+        }
+
+        /* 4. Specificity & Buttons (Ders 7) */
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        #submit-btn { /* ID Specificity - Daha güçlü */
+            background-color: #2ecc71;
+            color: white;
+        }
+
+        .btn:hover { /* Interaction */
+            filter: brightness(1.1);
+            transform: translateY(-2px);
+        }
+
+        /* 5. Disabled State with Attribute Selector */
+        button[disabled] {
+            background-color: #bdc3c7 !important; /* Force the color */
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Project Login</h1>
+        <p>Enter your details to proceed.</p>
+        
+        <input type="text" placeholder="Username">
+        <br><br>
+        
+        <button class="btn" id="submit-btn">Login</button>
+        <button class="btn" disabled>Guest Access</button>
+    </div>
+
+</body>
+</html>
