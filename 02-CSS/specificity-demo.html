@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Specificity</title>
+    <style>
+    /* 1. TÜM paragrafları gri yap */
+    p{ color: gray; 
+    }
+    
+    /* 2. Sadece 'highlight' class'ına sahip olanı mavi yap */
+    .highlight { color: blue; 
+    }
+    /* 3. Sadece 'super-important' ID'sine sahip olanı kırmızı yap */
+    #super-important { color: red; 
+    }
+    /* 4. 'highlight' class'ına rağmen rengi yeşile zorla (!important kullan) */
+    .force-green { color: green !important; 
+    }
+    </style>
+</head>
+<body>
+    <p>Ben sıradan bir paragrafım (Gri olmalıyım).</p>
+    <p class="highlight">Ben vurgulanan biriyim (Mavi olmalıyım).</p>
+    <p id="super-important" class="highlight">Ben en önemliyim (Kırmızı olmalıyım).</p>
+    <p class="highlight force-green">Ben kural tanımazım (Yeşil olmalıyım).</p>
+</body>
+</html>
