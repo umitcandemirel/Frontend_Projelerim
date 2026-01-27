@@ -1,0 +1,15 @@
+#container{
+    width: 1140px;
+    background-color: blueviolet;
+}
+#blog-post-container{
+    width:75%;
+    background-color:aquamarine;
+}
+#other-posts{
+    background-color: bisque;
+    width: 25%;
+}
+#author-box{
+    border:1px solid red;
+}
