@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box; /* Padding genişliği bozmasın diye en kritik kural */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#main-wrapper {
+    width: 850px;
+    background-color: #1a2533;
+    color: white;
+    border-radius: 15px;
+    overflow: hidden; /* Float kullanan elemanları içinde tutar */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* SOL PANEL */
+#login-section {
+    width: 50%;
+    float: left;
+    padding: 60px 40px; /* Üst/Alt: 60px, Sağ/Sol: 40px */
+    text-align: center;
+}
+
+#login-section h1 {
+    font-size: 22px;
+    margin-bottom: 30px;
+    color: #d4af37;
+}
+
+/* SAĞ PANEL */
+#info-section {
+    width: 50%;
+    float: left;
+    padding: 60px 40px; /* Sol tarafla aynı padding: Hizalama burada sağlanıyor! */
+    background-color: rgba(255, 255, 255, 0.05);
+    border-left: 2px solid #d4af37; /* Ortadaki altın çizgi */
+    min-height: 380px; /* Kutuların boyu eşit görünsün diye */
+}
+
+#info-section h2 {
+    color: #d4af37;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#info-section h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 10px;
+}
+
+/* LİSTE DÜZENİ */
+ul {
+    list-style-type: none; /* Standart noktaları kaldırdık */
+}
+
+ul li {
+    margin-bottom: 12px;
+    font-size: 15px;
+    position: relative;
+    padding-left: 20px;
+}
+
+/* Liste başına küçük altın noktalar ekleyelim */
+ul li::before {
+    content: "•";
+    color: #d4af37;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+/* INPUT VE BUTONLAR */
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.9);
+}
+
+#submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #d4af37;
+    border: none;
+    border-radius: 5px;
+    color: #1a2533;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#submit-btn:hover {
+    background-color: #f1c40f;
+    transform: translateY(-2px);
+}
