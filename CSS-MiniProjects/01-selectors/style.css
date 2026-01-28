@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color:darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.intro{
+    font-style: italic;
+    color:coral;
+}
+h2{
+    color:blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#personal-info{
+    background-color: #f0f0f0;
+    padding: 10px;
+    border:1px solid #ccc;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:darkgreen;
+}
+#tech-skills{
+    background-color: #f0f0f0;
+    padding: 10px;
+    border:1px solid #ccc;
+}
+#tech-skills li{
+    color:green;
+    font-weight: bold;
+}
+a:hover{
+    color:red;
+    text-decoration: underline;
+}
