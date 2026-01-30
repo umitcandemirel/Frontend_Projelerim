@@ -1,0 +1,22 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #fdfdf8;
+}
+h1{
+    font-weight: bold;
+    color:#4B2E2E;
+    font-size:50px;
+    text-align: center;
+}
+h2{
+    color:#666666;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    width:600px;
+    margin-right: 10px;
+    float:left;
+}
+.clear{
+    clear: both;
+}
