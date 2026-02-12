@@ -1,54 +1,30 @@
-# Fonts & Icons Demo
+# 11 - Web Fonts and Iconography / Web Yazı Tipleri ve İkonografi
 
-## 🇹🇷 Türkçe Açıklama
+[EN] This lab explores the integration of external font families (Google Fonts) and vector icons (Font Awesome) to enhance typography and visual communication in UI components.
+[TR] Bu laboratuvar, UI bileşenlerinde tipografiyi ve görsel iletişimi güçlendirmek için harici yazı tipi ailelerinin (Google Fonts) ve vektörel ikonların (Font Awesome) entegrasyonunu incelemektedir.
 
-Bu mini proje, **Google Fonts** ve **Font Awesome ikonları** kullanılarak basit bir profil kartı tasarımını göstermektedir.  
-Amaç, font entegrasyonu ve ikon kullanımını öğrenmek ve projelerde profesyonel görsellik sağlamaktır.
+## 🖼️ Preview / Önizleme
+![Project Preview](preview.png)
 
-### Kullanılan Özellikler
-- **Google Fonts (Poppins)** → Modern ve okunabilir yazı tipi  
-- **Font Awesome ikonları** → LinkedIn, GitHub ve e‑posta ikonları  
-- **Profil kartı tasarımı** → Fotoğraf, isim, açıklama ve sosyal medya bağlantıları  
-- **box-shadow & border-radius** → Kartın görsel olarak öne çıkması  
-- **em & rem kullanımı** → Responsive ve esnek font boyutları  
+## 🎯 Key Features / Önemli Özellikler
 
----
+### 🇬🇧 English
+* **External Font Integration:** Utilized Google Fonts API to implement 'Poppins', ensuring consistent cross-browser typography.
+* **Scalable Iconography:** Integrated Font Awesome 6.x for resolution-independent icons that maintain clarity at any scale.
+* **Semantic Components:** Used `article` and descriptive `aria-label` tags to improve accessibility (A11y) and SEO.
+* **Visual Hierarchy:** Established a clear typographic rhythm using different font weights and icon sizing.
 
-## 🇬🇧 English Description
+### 🇹🇷 Türkçe
+* **Harici Font Entegrasyonu:** Tarayıcılar arası tutarlı tipografi sağlamak için Google Fonts API üzerinden 'Poppins' yazı tipi uygulandı.
+* **Ölçeklenebilir İkonografi:** Her boyutta netliğini koruyan, çözünürlükten bağımsız ikonlar için Font Awesome 6.x entegre edildi.
+* **Semantik Bileşenler:** Erişilebilirliği (A11y) ve SEO'yu artırmak için `article` ve açıklayıcı `aria-label` etiketleri kullanıldı.
+* **Görsel Hiyerarşi:** Farklı font ağırlıkları ve ikon boyutlandırmaları kullanılarak net bir tipografik ritim oluşturuldu.
 
-This mini project demonstrates a simple **profile card design** using **Google Fonts** and **Font Awesome icons**.  
-The goal is to practice font integration and icon usage while creating a clean, professional UI component.
+## 🛠️ Technical Stack / Teknolojiler
+* **HTML5** (Semantics, Accessibility)
+* **CSS3** (Typography, Flexbox, External Assets)
+* **External APIs** (Google Fonts, Font Awesome)
 
-### Applied Features
-- **Google Fonts (Poppins)** → Modern and readable typography  
-- **Font Awesome icons** → LinkedIn, GitHub, and email icons  
-- **Profile card layout** → Photo, name, description, and social links  
-- **box-shadow & border-radius** → Visual enhancement of the card  
-- **em & rem units** → Responsive and flexible font sizing  
-
----
-
-## 📂 Project Files
-
-- [index.html](./index.html)  
-- [style.css](./style.css)  
-- [README.md](./README.md)  
-- [preview.png](./preview.png)  
-
----
-
-## 📂 Project Structure
-```
-CSS-MiniProjects/
-└── fonts-icons-demo/
-├── index.html
-├── style.css
-├── README.md
-└── preview.png
-```
-
----
-
-## 📸 Screenshot
-
-![Fonts & Icons Demo](./fonts-icons-demo.png)
+## 💡 Developer Note / Geliştirici Notu
+[EN] "Typography is 95% of the web. Icons are the universal language that guides the user where text fails."
+[TR] "Web'in %95'i tipografidir. İkonlar ise metnin yetersiz kaldığı yerde kullanıcıya yol gösteren evrensel bir dildir."
