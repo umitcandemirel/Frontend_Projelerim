@@ -1,58 +1,29 @@
-# 06-Floating Demo
+# 06 - Content Flow and Floats / İçerik Akışı ve Kaydırmalar
 
-## 🇹🇷 Türkçe Açıklama
+[EN] This project explores the traditional CSS Float property, focusing on how to manipulate the document flow and allow text to wrap around images effectively.
+[TR] Bu proje; doküman akışını nasıl yöneteceğimizi ve metnin görseller etrafında etkili bir şekilde kaymasını sağlayan geleneksel CSS Float özelliğini incelemektedir.
 
-Bu mini proje, CSS ile görselin sola yaslanması (float) ve metnin etrafına sarılması (text wrapping) konularını göstermektedir.  
-Ayrıca `clear: both;` kullanılarak görselin altından başlayan yeni bir paragraf örneği sunulmuştur.
+## 🖼️ Preview / Önizleme
+![Project Preview](preview.png)
 
-### Kullanılan Özellikler
-- **float: left** → Görseli sola yaslama  
-- **margin-right** → Görsel ile metin arasında boşluk bırakma  
-- **text wrapping** → Metnin görselin etrafına sarılması  
-- **clear: both** → Yeni paragrafın görselin altından başlamasını sağlama  
-- **font-family** → Serif font kullanımı  
-- **background-color** → Açık krem arka plan  
-- **responsive layout** → Görsel boyutu ve hizalama dengesi  
+## 🎯 Key Features / Önemli Özellikler
 
----
+### 🇬🇧 English
+* **Text Wrapping:** Mastered how to float images to the left/right to create magazine-style layouts.
+* **The Clearfix Hack:** Implemented the `::after` pseudo-element technique to prevent parent container collapse.
+* **Document Flow:** Understanding how floated elements are removed from the normal flow while still affecting inline content.
+* **Spacing & Margins:** Fine-tuned the balance between images and surrounding text for better legibility.
 
-## 🇬🇧 English Description
+### 🇹🇷 Türkçe
+* **Metin Kaydırma:** Magazin tarzı yerleşimler oluşturmak için görselleri sola/sağa kaydırma (float) tekniği pekiştirildi.
+* **Clearfix Çözümü:** Kapsayıcı elemanların çökmesini (collapse) önlemek için modern `::after` yalancı öğe tekniği uygulandı.
+* **Doküman Akışı:** Float edilen öğelerin normal akıştan nasıl çıktığını ve satır içi içeriği nasıl etkilediği kavrandı.
+* **Boşluk Yönetimi:** Görseller ve çevreleyen metin arasındaki denge, okunabilirliği artırmak için optimize edildi.
 
-This mini project demonstrates how to float an image to the left using CSS and wrap text around it.  
-It also includes a paragraph that starts below the floated image using `clear: both;`.
+## 🛠️ Technical Stack / Teknolojiler
+* **HTML5** (Semantics & Media)
+* **CSS3** (Floats, Clearfix, Pseudo-elements, Margin collapse)
 
-### Applied Features
-- **float: left** → Aligning the image to the left  
-- **margin-right** → Adding space between image and text  
-- **text wrapping** → Wrapping text around the floated image  
-- **clear: both** → Starting a new paragraph below the floated image  
-- **font-family** → Using serif fonts  
-- **background-color** → Off-white background  
-- **responsive layout** → Balanced image size and alignment  
-
----
-
-## 📂 Project Files
-
-- [index.html](./index.html)  
-- [style.css](./style.css)  
-- [README.md](./README.md)  
-- [floating-demo.png](./floating-demo.png)
-
----
-
-## 📂 Project Structure
-```
-CSS-MiniProjects/
-└── 06-floating-demo/
-├── index.html
-├── style.css
-├── README.md
-└── floating-demo.png
-```
-
----
-
-## 📸 Screenshot
-
-![Floating Demo](./floating-demo.png)
+## 💡 Developer Note / Geliştirici Notu
+[EN] Even in the age of Flexbox and Grid, floats are still the best way to handle text-wrapping around images. Learning to "clear" floats is a rite of passage for every CSS developer.
+[TR] Flexbox ve Grid çağında bile, metnin görsel etrafında dönmesini sağlamak için hala en iyi yol float kullanımıdır. Float'ları "temizlemeyi" (clear) öğrenmek, her CSS geliştiricisi için bir geçiş ayinidir.

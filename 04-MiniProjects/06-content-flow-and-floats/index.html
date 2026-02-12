@@ -2,17 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Floating Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Flow & Floats | Ümitcan Demirel</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <main class="container">
+        <header>
+            <h1>Content Flow & Floats</h1>
+            <p class="subtitle">Understanding how elements interact in the document flow.</p>
+        </header>
 
-    <h1>Floating Demo</h1>
-    <h2>An example of floating an image to the left.</h2>
-    <img src="rowing.png" alt="Rowing Image">
-    <p>This is a sample paragraph of text that flows around the image. It illustrates how content wraps alongside a floated element in layout.</p>
-    <div class="clear"></div>
-    <p>Now this paragraph starts below the floated image, thanks to the clearfix.</p>
+        <article class="content-wrapper clearfix">
+            <h2>Floating an Image to the Left</h2>
+            <img src="rowing.png" alt="Rowing Image" class="float-left">
+            <p>
+                This paragraph demonstrates the classic float behavior. The text flows naturally 
+                around the image on the right side. In the early days of web design, this was 
+                the primary way to create multi-column layouts.
+            </p>
+        </article>
 
+        <section class="bottom-section">
+            <p>Thanks to the modern clearfix, this section stays perfectly below the floated image.</p>
+        </section>
+    </main>
 </body>
 </html>

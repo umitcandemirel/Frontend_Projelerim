@@ -1,22 +1,49 @@
-body{
+/* --- Global Settings --- */
+body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #fdfdf8;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
-h1{
+
+h1 {
     font-weight: bold;
-    color:#4B2E2E;
-    font-size:50px;
+    color: #4B2E2E;
+    font-size: 40px; /* Scaled down slightly for better balance */
     text-align: center;
+    margin-bottom: 20px;
 }
-h2{
-    color:#666666;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+
+h2 {
+    color: #666666;
+    margin-bottom: 15px;
 }
-img{
-    width:600px;
-    margin-right: 10px;
-    float:left;
+
+/* --- Floating Image Mastery --- */
+img {
+    max-width: 45%; /* Dynamically resizes based on container */
+    height: auto;
+    float: left;
+    margin-right: 20px;  /* Space between image and text on the right */
+    margin-bottom: 15px; /* Space for text wrapping underneath */
+    border: 1px solid #ddd;
+    padding: 5px;
+    background: white;
 }
-.clear{
+
+/* --- The Modern Clearfix Solution --- */
+/* Instead of using <div class="clear">, apply this to the parent element */
+.clearfix::after {
+    content: "";
+    display: table;
     clear: both;
+}
+
+/* --- Content Styling --- */
+p {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: justify; /* Makes text wrap look cleaner around images */
 }
