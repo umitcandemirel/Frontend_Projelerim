@@ -1,33 +1,62 @@
-h1{
-    font-family: sans-serif;
-    color:darkblue;
+/* --- Global Text & Layout Settings --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
+    color: #2c3e50;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
 }
-h2{
+
+/* --- Typography Hiearchy --- */
+h1 {
+    font-family: sans-serif;
+    color: #00008b; /* DarkBlue Professional HEX */
+    border-bottom: 2px solid #eee;
+}
+
+h2 {
     font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color:red;
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #e74c3c; /* Professional Red (Alizarin) */
 }
-#favorite-colors{
-    color:green;
-    font-family:sans-serif;
-}
-#favorite-fonts{
-    color:purple;
+
+/* Sections title styling */
+h3 {
     font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 30px;
 }
-a{
-    color:darkmagenta;
+
+#favorite-colors { color: #27ae60; } /* Professional Green */
+#favorite-fonts { color: #8e44ad; }  /* Professional Purple */
+
+/* --- Interactive Elements --- */
+a {
+    color: #8b008b; /* DarkMagenta */
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #ff0000;
     text-decoration: underline;
 }
-a:hover{
-    color:red;
-    text-decoration: underline;
+
+/* --- List Styling & Advanced Selectors --- */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
 }
-#favorite-colors li:nth-child(1) { color: blue; }
-#favorite-colors li:nth-child(2) { color: red; }
-#favorite-colors li:nth-child(3) { color: green; }
 
-#favorite-fonts li:nth-child(1) { font-family: Arial, Helvetica, sans-serif; }
-#favorite-fonts li:nth-child(2) { font-family: Georgia, 'Times New Roman', serif; }
-#favorite-fonts li:nth-child(3) { font-family: 'Courier New', Courier, monospace; }
+/* Using nth-child to demonstrate color variety */
+#color-palette li:nth-child(1) { color: #2980b9; font-weight: bold; } /* Blue */
+#color-palette li:nth-child(2) { color: #c0392b; font-weight: bold; } /* Red */
+#color-palette li:nth-child(3) { color: #1e8449; font-weight: bold; } /* Green */
 
+/* Using nth-child to demonstrate font variety */
+#font-showcase li:nth-child(1) { font-family: Arial, Helvetica, sans-serif; }
+#font-showcase li:nth-child(2) { font-family: Georgia, 'Times New Roman', serif; }
+#font-showcase li:nth-child(3) { font-family: 'Courier New', Courier, monospace; }
