@@ -1,21 +1,42 @@
-.box{
+/* --- Global Reset & Box Sizing --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures predictable sizing by including padding/borders */
+}
+
+/* --- Typography & Environment --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* --- Base Component Architecture --- */
+.box {
     width: 100px;
     height: 100px;
-    margin-right: 20px;
     display: inline-block;
     text-align: center;
-    line-height: 100px;
-    color:white;
+    line-height: 100px; /* Vertical centering technique */
+    color: white;
+    font-weight: bold;
+    vertical-align: top; /* Prevents baseline alignment issues in inline layouts */
 }
-#first{
-    background: red;
-    margin:50px 50px;
-    }
-#second{
-    background: blue;
-    margin:40px;
+
+/* --- Strategic Margin Implementation --- */
+
+#first {
+    background: #e74c3c;
+    margin: 50px; 
 }
-#third{
-    background: green;
-    margin:40px 40px 50px 100px;
-    }
+
+#second {
+    background: #3498db;
+    margin: 40px; 
+}
+
+#third {
+    background: #2ecc71;
+    margin: 40px 40px 50px 100px; 
+}
