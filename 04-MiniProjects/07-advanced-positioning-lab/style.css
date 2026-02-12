@@ -1,71 +1,78 @@
-
-
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Arial, sans-serif; /* Daha modern bir font */
     margin: 0;
     padding: 0;
+    background-color: #f0f0f0;
 }
 
 #container {
     position: relative;
     width: 800px;
-    margin: 20px auto;
-    border: 2px solid #333;
-    padding: 20px;
+    margin: 40px auto;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
-
 
 #blog-post-container {
-    position: relative;
-    background-color: #f9f9f9;
-    padding: 15px;
-    margin-bottom: 20px;
+    position: relative; /* Anchor for the absolute date */
+    background-color: #fdfdfd;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
 }
 
+/* Sticky Header - Stays at top while scrolling within the post */
 #blog-post h2 {
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.95); /* Semi-transparent */
+    padding: 10px 0;
     margin: 0;
+    z-index: 10;
+    border-bottom: 2px solid #4B2E2E;
+    color: #4B2E2E;
 }
 
+/* Absolute Positioning - Pinned to the top-right of container */
 .date {
     position: absolute; 
-    top: 10px;
-    right: 10px;
-    font-size: 12px;
-    color: gray;
+    top: 15px;
+    right: 15px;
+    font-size: 0.85rem;
+    color: #888;
+    background: #eee;
+    padding: 2px 8px;
+    border-radius: 4px;
 }
-
 
 #other-posts {
-    background-color: #eee;
-    padding: 10px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-left: 4px solid #ccc;
 }
 
-.other {
-    margin: 5px 0;
-}
-
-
+/* Fixed Positioning - Stays in the viewport regardless of scroll */
 #author-box {
     position: fixed; 
-    bottom: 20px;
-    right: 20px;
-    width: 200px;
+    bottom: 30px;
+    right: 30px;
+    width: 180px;
     background-color: #fff;
-    border: 1px solid #333;
-    padding: 10px;
+    border: none;
+    padding: 15px;
     text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    border-radius: 12px;
+    z-index: 1000; /* Ensure it's always on top */
 }
 
 #author-box img {
-    width: 80px;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
     border-radius: 50%;
-}
-
-
-h2 {
-    position: sticky;
-    top: 0;
-    background-color: #fff;
-    padding: 5px;
-    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    border: 2px solid #4B2E2E;
 }
