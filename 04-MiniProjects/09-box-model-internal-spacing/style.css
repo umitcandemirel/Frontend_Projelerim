@@ -1,13 +1,41 @@
-div {
+/* --- Universal Reset --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: #e9ecef;
+    padding-top: 50px;
+}
+
+/* --- The Main Component --- */
+article.content-card {
     width: 400px;
     border: 2px solid #333;
     background-color: #f0f0f0;
-    padding: 20px; /* işte burası kritik */
+    /* Critical: Uniform internal spacing for the container */
+    padding: 20px; 
     margin: 20px auto;
+    border-radius: 4px;
 }
-h2{
+
+/* --- Heading Padding (Vertical & Horizontal balance) --- */
+h2 {
+    color: #2d3436;
+    background-color: #dfe6e9;
+    /* Shorthand: 20px Top/Bottom | 40px Left/Right */
     padding: 20px 40px;
+    margin-bottom: 15px;
 }
-p{
+
+/* --- Paragraph Padding (Clockwise precision) --- */
+p {
+    color: #636e72;
+    line-height: 1.6;
+    /* Shorthand: Top(10px) Right(20px) Bottom(30px) Left(35px) */
     padding: 10px 20px 30px 35px;
+    background-color: #ffffff;
 }

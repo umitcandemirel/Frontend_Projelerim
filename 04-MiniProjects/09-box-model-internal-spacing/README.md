@@ -1,56 +1,29 @@
-# 09-Padding Demo
+# 06 - Content Flow and Floats / İçerik Akışı ve Kaydırmalar
 
-## 🇹🇷 Türkçe Açıklama
+[EN] This project explores the traditional CSS Float property, focusing on how to manipulate the document flow and allow text to wrap around images effectively.
+[TR] Bu proje; doküman akışını nasıl yöneteceğimizi ve metnin görseller etrafında etkili bir şekilde kaymasını sağlayan geleneksel CSS Float özelliğini incelemektedir.
 
-Bu mini proje, CSS **padding** özelliğini uygulamalı olarak göstermektedir.  
-Kutunun içeriği ile kenarlıkları arasındaki boşlukların nasıl çalıştığı farklı örneklerle açıklanmıştır.
+## 🖼️ Preview / Önizleme
+![Project Preview](preview.png)
 
-### Kullanılan Özellikler
-- **padding: tek değer** → Tüm kenarlara aynı iç boşluk  
-- **padding: iki değer** → Üst/alt ve sağ/sol için ayrı iç boşluk  
-- **padding: dört değer** → Her kenar için farklı iç boşluk (top, right, bottom, left)  
-- **background-color** → Kutunun iç boşluk alanını doldurma  
-- **border** → Kutunun sınırlarını belirleme  
-- **margin** → Kutunun dış boşluğunu ayarlama  
+## 🎯 Key Features / Önemli Özellikler
 
----
+### 🇬🇧 English
+* **Text Wrapping:** Mastered how to float images to the left/right to create magazine-style layouts.
+* **The Clearfix Hack:** Implemented the `::after` pseudo-element technique to prevent parent container collapse.
+* **Document Flow:** Understanding how floated elements are removed from the normal flow while still affecting inline content.
+* **Spacing & Margins:** Fine-tuned the balance between images and surrounding text for better legibility.
 
-## 🇬🇧 English Description
+### 🇹🇷 Türkçe
+* **Metin Kaydırma:** Magazin tarzı yerleşimler oluşturmak için görselleri sola/sağa kaydırma (float) tekniği pekiştirildi.
+* **Clearfix Çözümü:** Kapsayıcı elemanların çökmesini (collapse) önlemek için modern `::after` yalancı öğe tekniği uygulandı.
+* **Doküman Akışı:** Float edilen öğelerin normal akıştan nasıl çıktığını ve satır içi içeriği nasıl etkilediği kavrandı.
+* **Boşluk Yönetimi:** Görseller ve çevreleyen metin arasındaki denge, okunabilirliği artırmak için optimize edildi.
 
-This mini project demonstrates the CSS **padding** property with practical examples.  
-It shows how inner spacing between content and borders works using different shorthand values.
+## 🛠️ Technical Stack / Teknolojiler
+* **HTML5** (Semantics & Media)
+* **CSS3** (Floats, Clearfix, Pseudo-elements, Margin collapse)
 
-### Applied Features
-- **padding: single value** → Same inner spacing for all sides  
-- **padding: two values** → Separate inner spacing for top/bottom and right/left  
-- **padding: four values** → Different inner spacing for each side (top, right, bottom, left)  
-- **background-color** → Filling the padding area with color  
-- **border** → Defining the box boundaries  
-- **margin** → Adjusting the outer spacing of the box  
-
----
-
-## 📂 Project Files
-
-- [index.html](./index.html)  
-- [style.css](./style.css)  
-- [README.md](./README.md)  
-- [padding-demo.png](./padding-demo.png)
-
----
-
-## 📂 Project Structure
-```
-CSS-MiniProjects/
-└── 09-padding-demo/
-├── index.html
-├── style.css
-├── README.md
-└── padding-demo.png
-```
-
----
-
-## 📸 Screenshot
-
-![Padding Demo](./padding-demo.png)
+## 💡 Developer Note / Geliştirici Notu
+[EN] Even in the age of Flexbox and Grid, floats are still the best way to handle text-wrapping around images. Learning to "clear" floats is a rite of passage for every CSS developer.
+[TR] Flexbox ve Grid çağında bile, metnin görsel etrafında dönmesini sağlamak için hala en iyi yol float kullanımıdır. Float'ları "temizlemeyi" (clear) öğrenmek, her CSS geliştiricisi için bir geçiş ayinidir.
