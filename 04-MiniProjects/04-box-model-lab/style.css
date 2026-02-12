@@ -1,48 +1,79 @@
-body{
-    background-color:azure;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+/* --- Universal Box Model Reset --- */
+* {
     margin: 0;
     padding: 0;
+    /* Crucial: Includes padding and border in the element's total width */
+    box-sizing: border-box; 
 }
-header h1{
-    color:darkgoldenrod;
+
+body {
+    background-color: #f0ffff; /* Azure */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #b8860b; /* DarkGoldenRod */
+    margin-top: 20px;
+    text-align: center;
+}
+
+header h2 {
+    color: #a52a2a; /* Brown */
     margin-top: 10px;
     text-align: center;
+    font-style: italic;
 }
-header h2{
-    color:brown;
-    margin-top:20px;
+
+h3 {
     text-align: center;
+    padding: 20px;
+    color: #2c3e50;
 }
-.box{
-    width:400px;
-    border:2px solid gray;
-    padding: 25px;
-    margin: 25px auto;
+
+/* --- The Core Box Model Lab --- */
+.box {
+    /* total width will be exactly 400px because of border-box */
+    width: 400px; 
+    background-color: #f5f5dc; /* Beige */
+    border: 2px solid #808080; /* Gray */
+    padding: 25px;            /* Internal spacing */
+    margin: 25px auto;        /* External spacing & Centering */
     text-align: center;
-    background-color: beige;
     border-radius: 8px;
-    box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-in-out;
 }
-.box p{
-    color:darkslategray;
-    line-height: 1.5;
+
+.box p {
+    color: #2f4f4f; /* DarkSlateGray */
+    font-size: 1.1rem;
 }
-.box:hover{
-    background-color: lightyellow;
-    border-color: darkgoldenrod;
-    box-shadow: 6px 6px 12px rgba(0,0,0,0.3);
+
+/* --- Interaction Styling --- */
+.box:hover {
+    background-color: #ffffe0; /* LightYellow */
+    border-color: #b8860b;
+    box-shadow: 8px 8px 15px rgba(0,0,0,0.2);
+    transform: translateY(-5px); /* Adds a subtle lift effect */
 }
-footer{
+
+/* --- Footer Area --- */
+footer {
     text-align: center;
-    color:blue;
-    font-weight:bold ;
+    margin-top: 40px;
 }
-footer p{
-    background-color: gold;
+
+footer p {
+    color: #0000ff; /* Blue */
+    font-weight: bold;
+    background-color: #ffd700; /* Gold */
+    padding: 5px 15px;
     display: inline-block;
-}
-h3{
-    text-align: center;
-    padding: 10px;
+    border-radius: 20px;
 }

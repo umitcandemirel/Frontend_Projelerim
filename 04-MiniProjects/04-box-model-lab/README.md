@@ -1,54 +1,29 @@
-# 02-Box Model Demo
+# 04 - Box Model Lab / Kutu Modeli Laboratuvarı
 
-## 🇹🇷 Türkçe Açıklama
+[EN] This project is a dedicated study on the CSS Box Model, the fundamental principle that determines how every element on a web page is sized and spaced.
+[TR] Bu proje; web sayfasındaki her bir öğenin nasıl boyutlandırıldığını ve boşluklandırıldığını belirleyen temel prensip olan CSS Kutu Modeli (Box Model) üzerine özel bir çalışmadır.
 
-Bu mini proje, CSS **Box Model** kavramını göstermek için hazırlanmıştır.  
-Margin, Padding, Border ve Content arasındaki farklar basit bir kutu üzerinde gösterilmiştir.  
+## 🖼️ Preview / Önizleme
+![Project Preview](preview.png)
 
-### Kullanılan Özellikler
-- **margin** → Kutunun dış boşluklarını ayarlama  
-- **padding** → İçerik ile kenarlık arasındaki boşluğu ayarlama  
-- **border** → Kutunun kenarlığını belirleme  
-- **background-color** → Kutunun arka plan rengini ayarlama  
-- **box-shadow** → Kutunun gölge efektini ekleme  
-- **hover effect** → Fare üzerine gelince kutunun stilini değiştirme  
+## 🎯 Key Features / Önemli Özellikler
 
----
+### 🇬🇧 English
+* **The Four Layers:** Visualized and experimented with Content, Padding, Border, and Margin.
+* **Box-Sizing Fix:** Implemented `box-sizing: border-box;` to ensure consistent sizing across different elements.
+* **Centering Techniques:** Mastered horizontal centering using `margin: auto;` for block-level elements.
+* **Interactive Feedback:** Added hover effects that manipulate shadows and positioning to demonstrate depth.
 
-## 🇬🇧 English Description
+### 🇹🇷 Türkçe
+* **Dört Katman:** İçerik (Content), İç Boşluk (Padding), Kenarlık (Border) ve Dış Boşluk (Margin) katmanları görselleştirildi.
+* **Boyutlandırma Çözümü:** Farklı öğeler arasında tutarlı boyutlandırma sağlamak için `box-sizing: border-box;` uygulandı.
+* **Ortalama Teknikleri:** Blok düzeyindeki öğeler için `margin: auto;` kullanarak yatayda ortalama tekniği pekiştirildi.
+* **Etkileşimli Geribildirim:** Derinliği göstermek için gölge ve konumlandırmayı değiştiren hover (üzerine gelme) efektleri eklendi.
 
-This mini project demonstrates the CSS **Box Model** concept.  
-It shows the differences between Margin, Padding, Border, and Content using a simple box.  
+## 🛠️ Technical Stack / Teknolojiler
+* **HTML5** (Semantics)
+* **CSS3** (Box Model, Box-Shadows, Transitions, Box-Sizing)
 
-### Applied Features
-- **margin** → Adjusting outer spacing of the box  
-- **padding** → Adjusting inner spacing between content and border  
-- **border** → Defining the box outline  
-- **background-color** → Setting the box background color  
-- **box-shadow** → Adding shadow effects to the box  
-- **hover effect** → Changing box style on mouse hover  
-
----
-
-## 📂 Project Files
-
-- [index.html](./index.html)  
-- [style.css](./style.css)  
-- [README.md](./README.md)  
-
----
-
-## 📂 Project Structure
-```
-CSS-MiniProjects/
-└── 02-box-model/
-├── index.html
-├── style.css
-└── README.md
-```
-
----
-
-## 📸 Screenshot
-
-![Box Model Demo](./box-model-demo.png)
+## 💡 Developer Note / Geliştirici Notu
+[EN] Understanding that every element is essentially a box is a turning point in CSS. Using `border-box` is a best practice that simplifies layout calculations significantly.
+[TR] Her öğenin aslında bir kutu olduğunu anlamak CSS'te bir dönüm noktasıdır. `border-box` kullanmak, yerleşim hesaplamalarını önemli ölçüde basitleştiren en iyi uygulama (best practice) yöntemidir.
